@@ -43,7 +43,7 @@ The system encodes movie plots into embeddings and retrieves the most semantical
 git clone https://github.com/sanjana18832/Semantic-Search-on-Movie-Plots.git
 cd Semantic-Search-on-Movie-Plots
 ```
-⚙️ Create and Activate Virtual Environment
+## Create and Activate Virtual Environment
 Choose the command that matches your shell/OS.
 
 Linux/macOS (Bash/Zsh):
