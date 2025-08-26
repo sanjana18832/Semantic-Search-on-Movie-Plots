@@ -69,7 +69,7 @@ This prints a concise table with title and similarity.
 
 ## Run Unit Tests
 ```bash
-python -m unittest tests/test_movie_search.py -v
+python -m unittest test_movie_search.py -v
 ```
 ## Notes
 Model used: sentence-transformers/all-MiniLM-L6-v2
