@@ -16,14 +16,19 @@ The project uses **SentenceTransformers (`all-MiniLM-L6-v2`)** to embed movie pl
 
 ##  Repository Structure
 
-- movie_search.py # Main Python module with search functions
-
-- movie_search_solution.ipynb # Jupyter Notebook solution
+- tests/
+- test_movie_search.py # Unit tests
+- movie_search.py # Python module with search implementation
+- movie_search_solution.ipynb # Jupyter Notebook (step-by-step solution)
 - movies.csv # Dataset (movie plots)
-│── tests/
-│ └── test_movie_search.py # Unit tests
-│── requirements.txt # Dependencies
-│── README.md # Project documentation
-│── .gitignore
+- requirements.txt # Dependencies
+- README.md # Project documentation
+- .gitignore # Ignore unnecessary files
+
+ ## Prerequisites
+Python 3.9+
+Git
+
+
 
 
