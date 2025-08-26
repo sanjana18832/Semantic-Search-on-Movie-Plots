@@ -1,6 +1,6 @@
 ## **Author**: Sanjana Sori (221010241, ECE)
 
-# 🎬 Semantic Search on Movie Plots  
+# Semantic Search on Movie Plots  
 
 This repository is based on the [Semantic Search on Movie Plots project](https://github.com/sanjana18832/Semantic-Search-on-Movie-Plots).  
 It contains my solution for **Assignment-1: Semantic Search on Movie Plots** using **SentenceTransformers** (`all-MiniLM-L6-v2`).  
@@ -9,7 +9,7 @@ The system encodes movie plots into embeddings and retrieves the most semantical
 
 ---
 
-## ✅ What I Did
+##  What I Did
 - Built a **semantic search engine** in `movie_search.py` using **all-MiniLM-L6-v2** from SentenceTransformers  
 - Encoded movie plots into embeddings and computed **cosine similarity** (normalized to 0–1) for retrieval  
 - Added a **command-line interface (CLI)** to run queries with `--query` and `--top-n` options  
@@ -23,7 +23,7 @@ The system encodes movie plots into embeddings and retrieves the most semantical
 
 ---
 
-## 📂 Repository Structure
+##  Repository Structure
 - `movie_search.py` → Module implementing semantic search  
 - `movies.csv` → Tiny sample dataset (title, plot)  
 - `tests/test_movie_search.py` → Unit tests for `search_movies`  
@@ -32,13 +32,13 @@ The system encodes movie plots into embeddings and retrieves the most semantical
 
 ---
 
-## 🖥️ Prerequisites
+##  Prerequisites
 - Python **3.9+**  
 - Git  
 
 ---
 
-## 🔗 Clone the Repository
+##  Clone the Repository
 ```bash
 git clone https://github.com/sanjana18832/Semantic-Search-on-Movie-Plots.git
 cd Semantic-Search-on-Movie-Plots
@@ -56,27 +56,27 @@ Windows (PowerShell):
 python -m venv venv
 venv\Scripts\Activate.ps1
 ```
-📦 Install Dependencies
+## Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
-🚀 How to Run
+## How to Run
 Run a query directly from the terminal using the CLI:
 ```bash
 python movie_search.py --query "spy thriller in Paris" --top-n 3
 ```
 This prints a concise table with title and similarity.
 
-🧪 Run Unit Tests
+## Run Unit Tests
 ```bash
 python -m unittest tests/test_movie_search.py -v
 ```
-📊 Notes
+## Notes
 Model used: sentence-transformers/all-MiniLM-L6-v2
 
 Similarity metric: Cosine similarity (scaled to 0–1)
 
-📝 Example
+## Example
 ```bash
 python movie_search.py --query "spy thriller in Paris" --top-n 2
 ```
